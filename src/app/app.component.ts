@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'task1';
   op1: number = 0;
-  op2: number = 0;
+  //op2: number = 0;
   answer = 0;
   onSave() {
-    this.answer = this.op1 * this.op2;
+    this.answer = this.op1 * this.op1;
   }
 }
